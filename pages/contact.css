@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700;1000;");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #fd4a2b;
+  color: #000;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  background: #fd4a2b;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2vw 6vw;
+  z-index: 1000;
+}
+
+.menu-items {
+  display: flex;
+  margin-left: auto;
+  margin-right: -5vw;
+}
+
+.menu-items li {
+  list-style: none;
+  margin: 0 1.5vw;
+}
+
+.menu-items li a {
+  display: block;
+  color: #fff;
+  font-size: 1.5vw;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-items li a span {
+  color: #000;
+}
+
+.menu-items li a span:hover {
+  color: #fff;
+}
+
+.menu-items li:hover a {
+  color: #000;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  color: #000;
+}
+
+.contact-buttons {
+  margin-top: 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-buttons a {
+  margin: 2vh 0;
+}
+
+.contact-buttons .fa {
+  background: #000;
+  color: #fff;
+  width: 25vw;
+  padding: 1vw;
+  border-radius: 20vh;
+  font-size: 1.6vw;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.contact-buttons .fa:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contact-buttons .fa span {
+  font-size: 1.5vw;
+  margin-left: 15vw;
+}
+
+/* responsive */
+input {
+  display: none;
+  visibility: hidden;
+  -webkit-appearance: none;
+}
+
+.navbar label {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
+
+  .navbar label {
+    margin-left: auto;
+    display: block;
+    color: #fff;
+    font-size: 3vw;
+    padding: 1vw 1.5vw;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    position: fixed;
+    top: 0;
+    right: -40vw;
+    width: 40vw;
+    height: 100%;
+    background: #fff;
+    padding-top: 15vw;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+
+  .menu-items li a {
+    color: #fd4a2b;
+    font-size: 4vw;
+    margin: 0.5vw 0;
+  }
+
+  #check:checked ~ section .navbar .menu-items {
+    right: 0;
+  }
+
+  #check:checked ~ section .navbar label {
+    color: #fd4a2b;
+  }
+}
