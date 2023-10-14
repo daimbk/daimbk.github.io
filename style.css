@@ -208,6 +208,7 @@ section {
 
 /* responsive */
 input {
+  margin: 0;
   display: none;
   visibility: hidden;
   -webkit-appearance: none;
