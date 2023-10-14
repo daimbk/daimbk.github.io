@@ -23,6 +23,7 @@ section {
 
 .navbar {
   background: #fd4a2b;
+  top: 0;
   width: 100%;
   position: fixed;
   display: flex;
@@ -60,7 +61,6 @@ section {
   display: flex;
   width: 100%;
   min-height: 100vh;
-  margin-top: 0;
   align-items: center;
   justify-content: center;
   position: relative;
