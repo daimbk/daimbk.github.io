@@ -11,8 +11,8 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background: #fd4a2b;
-  color: #000;
+  background: #b21c02;
+  color: #181a1b;
 }
 
 section {
@@ -21,7 +21,7 @@ section {
 }
 
 .navbar {
-  background: #fd4a2b;
+  background: #b21c02;
   width: 100%;
   position: fixed;
   display: flex;
@@ -52,7 +52,8 @@ section {
 }
 
 .menu-items li a span {
-  color: #000;
+  color: #181a1b;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .menu-items li a span:hover {
@@ -60,7 +61,7 @@ section {
 }
 
 .menu-items li:hover a {
-  color: #000;
+  color: #181a1b;
 }
 
 .contact-container {
@@ -88,7 +89,7 @@ section {
 }
 
 .contact-buttons .fa {
-  background: #000;
+  background: #181a1b;
   color: #fff;
   width: 25vw;
   padding: 1vw;
@@ -100,7 +101,7 @@ section {
 
 .contact-buttons .fa:hover {
   background: #fff;
-  color: #000;
+  color: #181a1b;
 }
 
 .contact-buttons .fa span {
@@ -149,7 +150,7 @@ input {
   }
 
   .menu-items li a {
-    color: #fd4a2b;
+    color: #b21c02;
     font-size: 4vw;
     margin: 0.5vw 0;
   }
@@ -159,6 +160,6 @@ input {
   }
 
   #check:checked ~ section .navbar label {
-    color: #fd4a2b;
+    color: #b21c02;
   }
 }

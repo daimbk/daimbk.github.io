@@ -11,8 +11,8 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background: #fd4a2b;
-  color: #000;
+  background: #b21c02;
+  color: #181a1b;
 }
 
 section {
@@ -21,7 +21,7 @@ section {
 }
 
 .navbar {
-  background: #fd4a2b;
+  background: #b21c02;
   width: 100%;
   position: fixed;
   display: flex;
@@ -52,7 +52,8 @@ section {
 }
 
 .menu-items li a span {
-  color: #000;
+  color: #181a1b;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .menu-items li a span:hover {
@@ -60,7 +61,7 @@ section {
 }
 
 .menu-items li:hover a {
-  color: #000;
+  color: #181a1b;
 }
 
 .container {
@@ -111,8 +112,8 @@ section {
 
 .text-container .btn {
   display: inline-block;
-  color: #222;
-  background: #fff;
+  color: #fff;
+  background: #181a1b;
   margin-top: 2vw;
   font-size: 1.2vw;
   text-decoration: none;
@@ -168,13 +169,12 @@ section {
   border-radius: 20vh;
   font-size: 1.6vw;
   cursor: pointer;
-  background: #fff;
+  background: #181a1b;
   transition: 0.5s ease;
-  color: #000;
+  color: #fff;
 }
 
 .icons .fa:hover {
-  color: #fd4a2b;
   transform: translateX(-9vw);
 }
 
@@ -193,7 +193,7 @@ section {
   height: 40vw;
   width: 40vw;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #181a1b;
   animation: animate-blob 8s linear infinite;
 }
 
@@ -255,7 +255,7 @@ input {
   }
 
   .menu-items li a {
-    color: #fd4a2b;
+    color: #b21c02;
     font-size: 4vw;
     margin: 0.5vw 0;
   }
@@ -265,7 +265,7 @@ input {
   }
 
   #check:checked ~ section .navbar label {
-    color: #fd4a2b;
+    color: #b21c02;
   }
 
   .container {
