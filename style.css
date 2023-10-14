@@ -51,6 +51,14 @@ section {
   text-transform: uppercase;
 }
 
+.menu-items li a span {
+  color: #000;
+}
+
+.menu-items li a span:hover {
+  color: #fff;
+}
+
 .menu-items li:hover a {
   color: #000;
 }
