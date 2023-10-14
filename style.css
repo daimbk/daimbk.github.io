@@ -16,6 +16,7 @@ body {
 }
 
 section {
+  margin-top: 0;
   width: 100%;
   position: relative;
 }
@@ -208,7 +209,6 @@ section {
 
 /* responsive */
 input {
-  margin: 0;
   display: none;
   visibility: hidden;
   -webkit-appearance: none;
