@@ -297,24 +297,37 @@ input {
   }
 
   .image-container {
-    width: 100%;
+    /* width: 100%;
     height: 50rem;
-    margin-top: -100px;
-    overflow: hidden;
+    margin-top: 20px;
+    overflow: hidden; */
+    display: none;
   }
 
-  .imgbox {
+  /* .imgbox {
     height: 800px;
     margin: 0;
-  }
+  } */
 
   .icons {
     position: fixed;
+    right: -19vw;
     z-index: 100;
   }
 
   .icons .fa {
-    padding: 1.7vw;
+    width: 32vw;
+    padding: 4vw 3vh;
+    font-size: 5vw;
+  }
+
+  .icons .fa span {
+    font-size: 3vw;
+    margin-left: 4vw;
+  }
+
+  .icons .fa:hover {
+    transform: translateX(-14vw);
   }
 
   /* scroll bar */
