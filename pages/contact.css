@@ -162,4 +162,14 @@ input {
   #check:checked ~ section .navbar label {
     color: #b21c02;
   }
+
+  .contact-buttons .fa {
+    width: 65vw;
+    padding: 3vw;
+    font-size: 10vw;
+  }
+
+  .contact-buttons .fa span {
+    font-size: 8vw;
+  }
 }
