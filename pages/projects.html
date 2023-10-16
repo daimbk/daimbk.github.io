@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="projects.css" />
+    <title>Projects | Daim</title>
+  </head>
+
+  <body>
+    <input type="checkbox" id="check" />
+    <section>
+      <div class="navbar">
+        <ol class="menu-items">
+          <li>
+            <a href="../index.html">home</a>
+          </li>
+          <li>
+            <a href="projects.html"><span>projects</span></a>
+          </li>
+          <li><a href="resume.html">résumé</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ol>
+        <label for="check" class="fa fa-bars"></label>
+      </div>
+    </section>
+
+    <div class="projects-container">
+      <div class="heading">
+        <h2>Notable Projects</h2>
+      </div>
+      <section class="project-todo">
+        <div class="project-description">
+          <h2>CLI Todo List in Rust</h2>
+          <p>
+            Command line argument based todo list basic functionality.<br />
+            Implemented using Rust.<br />
+            Bash script for environment variables included.
+          </p>
+          <a class="github-buttons" href="https://github.com/daimbk/todo"
+            ><i class="fa fa-github"><span>daimbk/todo</span></i></a
+          >
+        </div>
+        <div class="project-images">
+          <div class="project-image">
+            <img src="../assets/projects/todo.png" alt="todo list image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="project-book">
+        <div class="project-description">
+          <h2>Book Search Web Scraper</h2>
+          <p>
+            The web scraper created using python scripts gets the title or
+            author from the user and scrapes the bookstore website Readings to
+            check its availability status. GUI interface is implemented for ease
+            of access.
+          </p>
+          <a class="github-buttons" href="https://github.com/daimbk/book-search"
+            ><i class="fa fa-github"><span>daimbk/book-search</span></i></a
+          >
+        </div>
+        <div class="project-images">
+          <div class="project-image">
+            <img
+              src="../assets/projects/book-search/menu.png"
+              alt="menu image"
+            />
+          </div>
+          <div class="project-image">
+            <img
+              src="../assets/projects/book-search/result.png"
+              alt="result image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="project-brick">
+        <div class="project-description">
+          <h2>Brick Breaker</h2>
+          <p>
+            Classic break-breaker game clone made using pygame utilities. The
+            program uses simple shape drawing methods and collision detection
+            using screen dimensions and collision methods.
+          </p>
+          <a
+            class="github-buttons"
+            href="https://github.com/daimbk/brick-breaker"
+            ><i class="fa fa-github"><span>daimbk/brick-breaker</span></i></a
+          >
+        </div>
+        <div class="project-images">
+          <div class="project-image">
+            <img src="../assets/projects/brick-breaker.png" alt="game image" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -123,6 +123,7 @@ input {
   display: none;
   visibility: hidden;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .navbar label {
@@ -150,7 +151,7 @@ input {
     right: -40vw;
     width: 40vw;
     height: 100%;
-    background: #fff;
+    background: #181a1b;
     padding-top: 15vw;
     padding-left: 5vw;
     display: flex;
@@ -159,9 +160,17 @@ input {
   }
 
   .menu-items li a {
-    color: #b21c02;
+    color: #fff;
     font-size: 4vw;
     margin: 0.5vw 0;
+  }
+
+  .menu-items li a:hover {
+    color: #b21c02;
+  }
+
+  .menu-items li a span {
+    color: #b21c02;
   }
 
   #check:checked ~ section .navbar .menu-items {
