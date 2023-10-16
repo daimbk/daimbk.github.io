@@ -10,7 +10,6 @@
 body {
   width: 100%;
   min-height: 100vh;
-  overflow: hidden;
   background: #b21c02;
   color: #181a1b;
 }
@@ -69,16 +68,18 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
 }
 
 .contact-heading {
+  margin-top: 65vh;
   font-size: 2rem;
   color: #fff;
 }
 
 .contact-buttons {
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -109,8 +110,107 @@ section {
   margin-left: 15vw;
 }
 
+.form-container {
+  margin-top: 2vh;
+  width: 400px;
+  background: #181a1b;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-size: 200% 100%;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-size: 1vw;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-family: inherit;
+  color: #fff;
+  font-weight: 600;
+  width: 40%;
+  background: #181a1b;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 5vh;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #181a1b;
+}
+
 /* responsive */
-input {
+input[type="checkbox"] {
   display: none;
   visibility: hidden;
   -webkit-appearance: none;
@@ -180,6 +280,18 @@ input {
 
   .contact-buttons .fa span {
     font-size: 8vw;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+
+  .form-container .form-group label {
+    font-size: 3vw;
+  }
+
+  .form-container .form-group textarea {
+    font-size: 3vw;
   }
 
   /* scroll bar */
