@@ -322,6 +322,57 @@ input {
     color: #b21c02;
   }
 
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .project-description h2,
+  .project-description p {
+    text-align: center;
+  }
+
+  .projects-container .github-buttons {
+    margin-left: 8vw;
+  }
+
+  .projects-container .github-buttons .fa {
+    width: 50vw;
+    padding: 2vw;
+    font-size: 5vw;
+  }
+
+  .projects-container .github-buttons .fa span {
+    font-size: 3vw;
+  }
+
+  .project-todo,
+  .project-book,
+  .project-brick {
+    font-size: 0.8rem;
+    width: 80%;
+    height: auto;
+  }
+
+  .project-images {
+    display: none;
+  }
+
+  .project-description h2 {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+
+  .project-description p {
+    margin-top: 2vh; /* Adjust as needed */
+  }
+
+  .project-image {
+    transition: transform 0.3s;
+  }
+
+  .project-image:hover {
+    transform: scale(1.1);
+  }
+
   /* scroll bar */
   ::-webkit-scrollbar {
     width: 12px;
