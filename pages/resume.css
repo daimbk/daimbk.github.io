@@ -123,6 +123,7 @@ input {
   display: none;
   visibility: hidden;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .navbar label {
