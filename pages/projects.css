@@ -340,7 +340,7 @@ input {
   }
 
   .projects-container .github-buttons {
-    margin-left: 8vw;
+    align-items: center;
   }
 
   .projects-container .github-buttons .fa {
@@ -357,7 +357,7 @@ input {
   .project-book,
   .project-brick {
     font-size: 0.8rem;
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 
